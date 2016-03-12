@@ -1,4 +1,8 @@
 /**
+ * This file is part of gsl-examples.
+ */
+
+/**
  * gsl_matrix * gsl_matrix_alloc (size_t n1, size_t n2)
  *   This function creates a matrix of size n1 rows by n2 column, returning a pointer
  *   to a newly initialized matrix struct. A new block is allocated for the elements of
