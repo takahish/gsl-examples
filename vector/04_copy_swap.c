@@ -21,7 +21,7 @@ int
 main (void)
 {
   int i = 0;
-  double k, l;
+  double k = 0.0, l = 0.0;
   size_t n = 100;
 
   gsl_vector * v = gsl_vector_alloc (n);

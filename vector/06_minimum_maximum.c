@@ -25,7 +25,7 @@ int
 main (void)
 {
   int i = 0;
-  double min, max, min_out, max_out, k = 0;
+  double min, max, min_out, max_out, k = 0.0;
   size_t n = 100;
 
   gsl_vector * v = gsl_vector_alloc (n);

@@ -49,7 +49,7 @@ int
 main (void)
 {
   int i = 0;
-  double k, l, m, o, p, q = 0.0;
+  double k = 0.0, l = 0.0, m = 0.0, o = 0.0, p = 0.0, q = 0.0;
   size_t n = 100;
 
   gsl_vector * a = gsl_vector_alloc (n);
